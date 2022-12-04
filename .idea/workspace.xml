@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2efcafb1-6257-4275-9cf5-e3bf1a9225c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdventOfCode22.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdventMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day1/DayOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day1/Puzzleinput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/DayTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/Puzzleinput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/DayThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/Puzzleinput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/FileUtils.java" afterDir="false" />
+    <list default="true" id="2efcafb1-6257-4275-9cf5-e3bf1a9225c5" name="Changes" comment="added days 1 to 3">
+      <change afterPath="$PROJECT_DIR$/src/day4/DayFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4/Puzzleinput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/FunUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode22.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -42,19 +33,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="day1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DayFour">
     <configuration name="AdventMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdventMain" />
       <module name="AdventOfCode22" />
@@ -62,8 +64,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DayFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day4.DayFour" />
+      <module name="AdventOfCode22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DayFour" />
         <item itemvalue="Application.AdventMain" />
       </list>
     </recent_temporary>
@@ -76,11 +92,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670087153382</updated>
-      <workItem from="1670087153794" duration="1473000" />
+      <workItem from="1670087153794" duration="2763000" />
+      <workItem from="1670105819738" duration="853000" />
+      <workItem from="1670153229902" duration="7729000" />
     </task>
+    <task id="LOCAL-00001" summary="added days 1 to 3">
+      <created>1670093022309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670093022309</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added days 1 to 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="added days 1 to 3" />
   </component>
 </project>
