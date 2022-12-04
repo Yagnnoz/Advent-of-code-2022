@@ -3,8 +3,6 @@ package day4;
 import util.FileUtils;
 import util.FunUtils;
 
-import java.io.LineNumberInputStream;
-
 public class DayFour {
 
     private final String[] inputData;
