@@ -27,5 +27,20 @@ public class FileUtils {
         }
 
     }
+    public static String readFileToSingleString(String path){
+        String result = "";
+
+        try {
+            BufferedReader bf = new BufferedReader((new FileReader(path)));
+            result = bf.readLine();
+
+            bf.close();
+            return  result;
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
 
 }
